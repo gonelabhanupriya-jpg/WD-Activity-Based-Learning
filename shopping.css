@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: #ffcc00;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.banner {
+    background: #2874f0;
+    color: white;
+    text-align: center;
+    padding: 40px 15px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 25px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card b {
+    color: #e53935;
+}
+
+.discount {
+    color: green;
+    font-weight: bold;
+}
+
+button {
+    background: #2874f0;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #1555bd;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+}
